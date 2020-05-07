@@ -1,0 +1,836 @@
+[ 2019-12-18T14:53:26+08:00 ] ::1 /thinkphp3/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.022892s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.022951s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2019-12-18T14:53:26+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.001478s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2019-12-18T14:53:26+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.001342s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0215s ]
+SQL: SELECT a.id,a.username,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE a.id = null LIMIT 1   [ RunTime:0.0451s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0154s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) GROUP BY b.name' at line 1
+ [ SQL语句 ] : SELECT b.id,b.name FROM menu a right join nav b on a.nav_id=b.id  WHERE ( a.id in() ) GROUP BY b.name 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) GROUP BY b.name' at line 1
+ [ SQL语句 ] : SELECT b.id,b.name FROM menu a right join nav b on a.nav_id=b.id  WHERE ( a.id in() ) GROUP BY b.name 
+
+[ 2019-12-18T14:53:26+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.000862s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2019-12-18T14:53:28+08:00 ] ::1 /thinkphp3/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.000597s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2019-12-18T14:53:28+08:00 ] ::1 /thinkphp3/index.php/Admin/verify/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2019-12-18T14:53:34+08:00 ] ::1 /thinkphp3/index.php/Admin/Login/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.001285s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`password` FROM `user` WHERE `username` = 'ren' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2019-12-18T14:53:35+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.001258s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2019-12-18T14:53:35+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.000528s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2019-12-18T14:53:35+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.001613s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2019-12-18T14:53:35+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.002257s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002399s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0093s ]
+SQL: SELECT a.id,a.username,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE a.id = '11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0052s ]
+SQL: SELECT b.id,b.name FROM menu a right join nav b on a.nav_id=b.id  WHERE ( a.id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) ) GROUP BY b.name  [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`name`,`nav_id`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2019-12-18T14:53:38+08:00 ] ::1 /thinkphp3/index.php/Admin/DeptTopic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.037073s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.037125s ]
+SQL: SHOW COLUMNS FROM `dept_topic` [ RunTime:0.0292s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dept_topic` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dept_topic` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: topic E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\7c5c9e6c52f07aa096a1a79045134221.php 第 38 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\7c5c9e6c52f07aa096a1a79045134221.php 第 41 行.
+NOTIC: [8] Undefined index: topic E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\7c5c9e6c52f07aa096a1a79045134221.php 第 38 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\7c5c9e6c52f07aa096a1a79045134221.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2019-12-18T14:53:39+08:00 ] ::1 /thinkphp3/index.php/Admin/TeacherTopic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.033847s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.033883s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher_topic` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `teacher_topic` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: topic E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\fd1ff659f33a613be89c4c69afbff803.php 第 38 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\fd1ff659f33a613be89c4c69afbff803.php 第 41 行.
+NOTIC: [8] Undefined index: topic E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\fd1ff659f33a613be89c4c69afbff803.php 第 38 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\fd1ff659f33a613be89c4c69afbff803.php 第 41 行.
+NOTIC: [8] Undefined index: topic E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\fd1ff659f33a613be89c4c69afbff803.php 第 38 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\fd1ff659f33a613be89c4c69afbff803.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2019-12-18T14:53:41+08:00 ] ::1 /thinkphp3/index.php/Admin/SummaryIdea/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.032198s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.032234s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.1181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary_idea` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary_idea` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2019-12-18T14:53:42+08:00 ] ::1 /thinkphp3/index.php/Admin/Summary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.032706s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.032741s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2019-12-18T14:53:43+08:00 ] ::1 /thinkphp3/index.php/Admin/SummaryIdea/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.033244s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.033279s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary_idea` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary_idea` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2019-12-18T14:53:43+08:00 ] ::1 /thinkphp3/index.php/Admin/Summary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0087s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.033699s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.033754s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2019-12-18T14:53:44+08:00 ] ::1 /thinkphp3/index.php/Admin/SummaryIdea/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.022116s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.022152s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary_idea` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary_idea` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2019-12-18T14:53:44+08:00 ] ::1 /thinkphp3/index.php/Admin/Summary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.031683s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.031718s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2019-12-18T14:53:45+08:00 ] ::1 /thinkphp3/index.php/Admin/SummaryIdea/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0002s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.021315s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.021350s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary_idea` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary_idea` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2019-12-18T14:53:46+08:00 ] ::1 /thinkphp3/index.php/Admin/Summary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.033607s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.033641s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2019-12-18T14:53:47+08:00 ] ::1 /thinkphp3/index.php/Admin/SummaryIdea/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.033636s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.033671s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary_idea` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary_idea` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2019-12-18T14:53:47+08:00 ] ::1 /thinkphp3/index.php/Admin/Summary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.033233s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.033270s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2019-12-18T14:53:48+08:00 ] ::1 /thinkphp3/index.php/Admin/Summary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.030297s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.030333s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2019-12-18T14:54:07+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.000848s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2019-12-18T14:54:07+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.001178s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2019-12-18T14:54:07+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.001717s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001818s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT a.id,a.username,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE a.id = '11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0071s ]
+SQL: SELECT b.id,b.name FROM menu a right join nav b on a.nav_id=b.id  WHERE ( a.id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) ) GROUP BY b.name  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`name`,`nav_id`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2019-12-18T14:54:07+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.000494s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2019-12-18T14:54:07+08:00 ] ::1 /thinkphp3/index.php/Admin/Summary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.033033s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.033070s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\5a123fa6849f7855f27e372f9160ddb1.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2019-12-18T14:54:09+08:00 ] ::1 /thinkphp3/index.php/Admin/SummaryIdea/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.031849s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.031899s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary_idea` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary_idea` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2019-12-18T14:54:10+08:00 ] ::1 /thinkphp3/index.php/Admin/Summary/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT a.id,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE ( a.id=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name`,`path` FROM `menu` WHERE ( id in(2,3,4,5,6,7,8,9,10,11,12,16,18,19,20) )  [ RunTime:0.0003s ]
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.032920s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.032956s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `summary` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `summary` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\5a123fa6849f7855f27e372f9160ddb1.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+

@@ -1,0 +1,21 @@
+<extend name="Public:baseIndex" />
+<block name="content">
+    <tr>
+        <th>编号</th>
+        <th>调查班级</th>
+        <th>调查教师</th>
+        <th>添加时间</th>
+        <th>操作</th>
+    </tr>
+    <volist name="rows" id="row" key="i">
+        <tr>
+            <td align="center">{$i}</td>
+            <td align="center">{$row.c_name}</td>
+            <td align="center">{$row.t_name}</td>
+            <td align="center">{:date('Y-m',$row[create_time])}</td>
+            <td>
+                <a href="{:U('Summary/mark',array('class_id'=>$row['class_id'],'teacher_id'=>$row['teacher_id']))}">打开</a>
+            </td>
+        </tr>
+    </volist>
+</block>

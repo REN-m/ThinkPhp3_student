@@ -1,0 +1,1018 @@
+[ 2019-11-15T14:53:08+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:08+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:08+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/Images/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:41+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:41+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:41+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:45+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:45+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:45+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:46+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:47+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:47+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:47+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:47+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:47+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:53:47+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:57:52+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002632s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:57:52+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:57:52+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:57:54+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:57:54+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T14:57:54+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:06:22+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+ERR: 无法加载模块:Application
+
+
+
+[ 2019-11-15T15:06:22+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:11:12+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:11:12+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:11:13+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:12:31+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:12:31+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:12:31+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:13:52+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:13:52+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:13:52+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:24:30+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:24:30+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:24:31+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:28:26+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:28:26+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:28:26+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:35:32+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:35:32+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:35:32+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:25+08:00 ] ::1 /thinkphp3/Application/Home/View/css/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:25+08:00 ] ::1 /thinkphp3/Application/Home/View/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:25+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:43+08:00 ] ::1 /thinkphp3/Application/Home/View/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:43+08:00 ] ::1 /thinkphp3/Application/Home/View/css/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:43+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/css/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/css/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/css/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/css/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:44+08:00 ] ::1 /thinkphp3/Application/Home/View/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:45+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:45+08:00 ] ::1 /thinkphp3/Application/Home/View/css/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:45+08:00 ] ::1 /thinkphp3/Application/Home/View/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:45+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:45+08:00 ] ::1 /thinkphp3/Application/Home/View/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:42:45+08:00 ] ::1 /thinkphp3/Application/Home/View/css/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:53+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:53+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:53+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:53+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:53+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:53+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:54+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:55+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:55+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:44:55+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:04+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:04+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:04+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:06+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:06+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:06+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:06+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:06+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:06+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:06+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:06+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:06+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:46:07+08:00 ] ::1 /thinkphp3/Application/Home/View/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:47:27+08:00 ] ::1 /thinkphp3/Application/Home/View/Index/__HOME_CSS__/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:47:27+08:00 ] ::1 /thinkphp3/Application/Home/View/Index/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T15:47:27+08:00 ] ::1 /thinkphp3/Application/Home/View/Index/js/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:11+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:11+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003371s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:11+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:14+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:14+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:14+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:15+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Application
+
+on
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:16+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:17+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:17+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-15T16:13:17+08:00 ] ::1 /thinkphp3/Application/Admin/View/Longin/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Application
+

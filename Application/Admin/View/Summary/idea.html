@@ -1,0 +1,21 @@
+<extend name="Public:baseIndex" />
+<block name="content">
+    <tr>
+                <th>编号</th>
+                <th>班级名称</th>
+                <th>任课教师</th>
+                <th>意见</th>
+                <th>添加时间</th>
+
+    </tr>
+    <volist name="rows" id="row" key="i">
+        <tr>
+                        <td align="center">{$i}</td>
+                                    <td align="center">{$row.cname}</td>
+                                    <td align="center">{$row.tname}</td>
+                                    <td align="center">{$row.idea}</td>
+                                    <td align="center">{:date('Y-m-d H:i:s',$row[create_time])}</td>
+
+        </tr>
+    </volist>
+</block>

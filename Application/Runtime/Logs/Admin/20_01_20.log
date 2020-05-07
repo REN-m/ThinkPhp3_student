@@ -1,0 +1,121 @@
+[ 2020-01-20T20:51:36+08:00 ] ::1 /thinkphp3/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008512s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.016491s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.016584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000662s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000963s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008731s ]
+
+[ 2020-01-20T20:51:36+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.000677s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2020-01-20T20:51:36+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.002125s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002185s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0415s ]
+SQL: SELECT a.id,a.username,a.role_id,b.menu_id FROM user a INNER JOIN role b on a.role_id=b.id  WHERE a.id = null LIMIT 1   [ RunTime:0.0325s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0250s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) GROUP BY b.name' at line 1
+ [ SQL语句 ] : SELECT b.id,b.name FROM menu a right join nav b on a.nav_id=b.id  WHERE ( a.id in() ) GROUP BY b.name 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) GROUP BY b.name' at line 1
+ [ SQL语句 ] : SELECT b.id,b.name FROM menu a right join nav b on a.nav_id=b.id  WHERE ( a.id in() ) GROUP BY b.name 
+
+[ 2020-01-20T20:51:36+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.001265s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002045s ]
+
+[ 2020-01-20T20:51:38+08:00 ] ::1 /thinkphp3/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.000702s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2020-01-20T20:51:39+08:00 ] ::1 /thinkphp3/index.php/Admin/verify/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+

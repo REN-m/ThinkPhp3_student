@@ -1,0 +1,26 @@
+<extend name="Public:baseIndex" />
+<block name="content">
+    <tr>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>部门编号</th>
+                <th>职位</th>
+                <th>状态</th>
+                <th>时间</th>
+                <th>操作</th>
+    </tr>
+    <volist name="rows" id="row">
+        <tr>
+                        <td align="center">{$row.id}</td>
+                                    <td align="center">{$row.t_name}</td>
+                                    <td align="center">{$row.d_name}</td>
+            <td align="center"><?php if($row['position']==1){echo '班主任'; }else{echo '任课教师'; }  ?></td>
+                                    <td align="center">{$row.state}</td>
+                                    <td align="center">{:date('Y-m-d H:i:s',$row[create_time])}</td>
+                                    <td>
+                <a href="{:U('Teacher/save',array('id'=>$row['id']))}">编辑</a>
+                <a class="ajax-get" href="{:U('Teacher/del',array('id'=>$row['id']))}">删除</a>
+            </td>
+        </tr>
+    </volist>
+</block>

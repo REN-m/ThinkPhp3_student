@@ -1,0 +1,30 @@
+[ 2019-12-18T14:32:23+08:00 ] ::1 /thinkphp3/Application/Home/View/topic/__HOME_CSS__/min.ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019317s ]
+ERR: 无法加载模块:Application
+
+[ 2019-12-18T14:32:23+08:00 ] ::1 /thinkphp3/Application/Home/View/topic/__HOME_CSS__/check.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019066s ]
+ERR: 无法加载模块:Application
+
+[ 2019-12-18T14:32:23+08:00 ] ::1 /thinkphp3/Application/Home/View/topic/__HOME_JS__/min.ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019394s ]
+ERR: 无法加载模块:Application
+
+[ 2019-12-18T14:53:28+08:00 ] ::1 /thinkphp3/Public/Admin/Styles/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载模块:Public
+
+[ 2019-12-18T14:53:28+08:00 ] ::1 /thinkphp3/Public/Admin/Styles/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Public
+

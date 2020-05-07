@@ -1,0 +1,27 @@
+<extend name="Public:baseIndex"/>
+<block name="content">
+    <tr>
+        <th>编号</th>
+        <th>名称</th>
+        <th>分类编号</th>
+        <th>班级编号</th>
+        <th>班主任编号</th>
+        <th>添加时间</th>
+        <th>操作</th>
+    </tr>
+    <volist name="rows" id="row">
+        <tr>
+            <td align="center">{$row.id}</td>
+            <td align="center">{$row.name}</td>
+            <td align="center">{$row.sort_id}</td>
+            <td align="center">{$row.class_id}</td>
+            <td align="center">{$row.headmaster_id}</td>
+            <td align="center">{:date('Y-m-d H:i:s',$row[create_time])}</td>
+            <td>
+                <a href="{:U('Stidea/save',array('id'=>$row['id']))}">编辑</a>
+                |
+                <a class="ajax-get" href="{:U('Stidea/del',array('id'=>$row['id']))}">删除</a>
+            </td>
+        </tr>
+    </volist>
+</block>

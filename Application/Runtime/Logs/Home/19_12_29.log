@@ -1,0 +1,822 @@
+[ 2019-12-29T16:46:51+08:00 ] ::1 /thinkphp3/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0238s ]
+SQL: SELECT `id`,`name` FROM `inves`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0116s ]
+SQL: SELECT `id`,`name` FROM `class` GROUP BY name  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2019-12-29T16:46:56+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0112s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=3 )  [ RunTime:0.0004s ]
+
+[ 2019-12-29T16:46:59+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=3&teacher_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0121s ]
+SQL: SELECT `id`,`name` FROM `inves` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0143s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0131s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0215s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2019-12-29T16:47:09+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0342s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609229') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 68 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'avg = fraction/number 
+                where class_id = 3 and teacher_id=1' at line 1
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+,avg = fraction/number 
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'avg = fraction/number 
+                where class_id = 3 and teacher_id=1' at line 1
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+,avg = fraction/number 
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T16:51:01+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0132s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609461') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 69 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T16:52:30+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0133s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609550') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 69 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T16:54:06+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0137s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609646') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: v E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 69 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T16:54:09+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0288s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609648') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: v E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 69 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T16:55:19+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0279s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609719') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 69 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T16:55:50+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0326s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609750') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 69 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                
+
+[ 2019-12-29T16:56:55+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0131s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609815') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 64 行.
+
+[ 2019-12-29T16:57:05+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0267s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609825') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 64 行.
+
+[ 2019-12-29T16:57:25+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0291s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609845') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 70 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T16:57:28+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0114s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577609848') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 70 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T17:07:38+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0310s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577610458') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 69 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T17:09:49+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0216s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','34','1577610589') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2019-12-29T17:09:49+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2019-12-29T17:09:59+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0251s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577610598') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-12-29T17:09:59+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2019-12-29T17:10:15+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0279s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577610615') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2019-12-29T17:10:15+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2019-12-29T17:15:40+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0140s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577610940') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: data E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Home\Controller\TopicController.class.php 第 65 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where class_id = 3 and teacher_id=1' at line 2
+ [ SQL语句 ] : update summary set number = number+1,fraction = fraction+
+                where class_id = 3 and teacher_id=1
+
+[ 2019-12-29T17:16:45+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+
+[ 2019-12-29T17:18:12+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0108s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577611092') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+60
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0004s ]
+SQL: update summary set number = number+1,fraction = fraction+50
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+40
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+50
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+40
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2019-12-29T17:18:12+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2019-12-29T17:19:28+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0127s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577611168') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+60
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+50
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0005s ]
+SQL: update summary set number = number+1,fraction = fraction+40
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0006s ]
+SQL: update summary set number = number+1,fraction = fraction+50
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0005s ]
+SQL: update summary set number = number+1,fraction = fraction+40
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2019-12-29T17:19:29+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2019-12-29T17:21:44+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0093s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577611304') [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+60
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+50
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+40
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+50
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+40
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+
+[ 2019-12-29T17:21:47+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0218s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577611307') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+60
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+50
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+40
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+50
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+40
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0002s ]
+
+[ 2019-12-29T17:21:58+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0127s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577611318') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+60
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+
+[ 2019-12-29T17:22:36+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0190s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577611355') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+40
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2019-12-29T17:22:36+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+
+[ 2019-12-29T17:23:04+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0240s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577611383') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+10
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2019-12-29T17:23:04+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2019-12-29T17:23:32+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0146s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','23','1577611412') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+10
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2019-12-29T17:23:32+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2019-12-29T17:28:29+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0126s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=4 )  [ RunTime:0.0003s ]
+
+[ 2019-12-29T17:28:30+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=4&teacher_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0152s ]
+SQL: SELECT `id`,`name` FROM `inves` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0208s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2019-12-29T17:28:37+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/4/teacher_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0239s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('4','3','reaffirm','1577611717') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('4','3','1','30','1577611717') [ RunTime:0.0004s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('4','3','2','20','1577611717') [ RunTime:0.0002s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('4','3','3','20','1577611717') [ RunTime:0.0002s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('4','3','4','20','1577611717') [ RunTime:0.0002s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('4','3','5','20','1577611717') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2019-12-29T17:28:37+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/4/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2019-12-29T19:45:40+08:00 ] ::1 /thinkphp3/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0111s ]
+SQL: SELECT `id`,`name` FROM `inves`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0251s ]
+SQL: SELECT `id`,`name` FROM `class` GROUP BY name  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2019-12-29T19:45:45+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0220s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=1 )  [ RunTime:0.0003s ]
+
+[ 2019-12-29T19:45:46+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=1&teacher_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0144s ]
+SQL: SELECT `id`,`name` FROM `inves` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0089s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0148s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0206s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2019-12-29T19:45:53+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0098s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('1','2','的','1577619953') [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('1','2','1','30','1577619953') [ RunTime:0.0004s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('1','2','2','30','1577619953') [ RunTime:0.0002s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('1','2','3','20','1577619953') [ RunTime:0.0002s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('1','2','4','20','1577619953') [ RunTime:0.0005s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`topic_id`,`fraction`,`create_time`) VALUES ('1','2','5','10','1577619953') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2019-12-29T19:45:53+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2019-12-29T19:48:20+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0143s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('1','2','的','1577620100') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+20,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2019-12-29T19:48:20+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+

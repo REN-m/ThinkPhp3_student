@@ -1,0 +1,1623 @@
+[ 2019-12-01T17:40:26+08:00 ] ::1 /thinkphp3/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002544s ]
+
+[ 2019-12-01T17:40:26+08:00 ] ::1 /thinkphp3/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002503s ]
+
+[ 2019-12-01T17:40:26+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2019-12-01T17:40:26+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0998s ]
+SQL: SELECT `id`,`name` FROM `nav`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0225s ]
+SQL: SELECT `id`,`name`,`path`,`nav_id` FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2019-12-01T17:40:26+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2019-12-01T17:40:28+08:00 ] ::1 /thinkphp3/index.php/Admin/Inves/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inves` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `inves` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2019-12-01T17:40:29+08:00 ] ::1 /thinkphp3/index.php/Admin/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `teacher` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `teacher` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0048s ]
+SQL: SELECT a.id,a.name as t_name,b.name as d_name,a.state,a.create_time FROM teacher a INNER JOIN dept b on a.dept_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\a5670205d9174c981d4ca99e961680e1.php 第 41 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\a5670205d9174c981d4ca99e961680e1.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2019-12-01T17:40:30+08:00 ] ::1 /thinkphp3/index.php/Admin/Dept/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `dept` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dept` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dept` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e16c751c04ea0e9b1cde8601b724100e.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2019-12-01T17:40:31+08:00 ] ::1 /thinkphp3/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'a.status' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.username,a.role_id,b.name as role_name,a.status,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5  
+ERR: 1054:Unknown column 'a.status' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.username,a.role_id,b.name as role_name,a.status,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5  
+
+[ 2019-12-01T17:40:33+08:00 ] ::1 /thinkphp3/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+ERR: 1054:Unknown column 'a.status' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.username,a.role_id,b.name as role_name,a.status,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5  
+ERR: 1054:Unknown column 'a.status' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.username,a.role_id,b.name as role_name,a.status,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5  
+
+[ 2019-12-01T17:40:35+08:00 ] ::1 /thinkphp3/index.php/Admin/DeptTopic/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `dept_topic` [ RunTime:0.0409s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dept_topic` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dept_topic` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\7c5c9e6c52f07aa096a1a79045134221.php 第 41 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\7c5c9e6c52f07aa096a1a79045134221.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2019-12-01T17:40:40+08:00 ] ::1 /thinkphp3/index.php/Admin/Inves/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inves` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `inves` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2019-12-01T17:40:40+08:00 ] ::1 /thinkphp3/index.php/Admin/Dept/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `dept` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dept` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `dept` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e16c751c04ea0e9b1cde8601b724100e.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2019-12-01T17:40:41+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0064s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2019-12-01T17:40:46+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/del/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0154s ]
+SQL: DELETE FROM `class` WHERE `id` = 15 [ RunTime:0.0186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+
+[ 2019-12-01T17:40:47+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0046s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2019-12-01T17:40:50+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `class` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`name` FROM `teacher`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-12-01T17:41:00+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `class` SET `name`='任茂华',`teacher_id`='24',`state`='1' WHERE `id` = 16 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+
+[ 2019-12-01T17:41:01+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0052s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2019-12-01T17:41:07+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save/id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `class` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`name` FROM `teacher`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2019-12-01T17:41:10+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `class` SET `name`='17三年软件二班',`teacher_id`='0',`state`='1' WHERE `id` = 17 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+
+[ 2019-12-01T17:41:11+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0057s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2019-12-01T17:41:20+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `class` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`name` FROM `teacher`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2019-12-01T17:41:22+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `class` SET `name`='任茂华',`teacher_id`='0',`state`='1' WHERE `id` = 16 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+
+[ 2019-12-01T17:41:23+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0052s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2019-12-01T17:43:33+08:00 ] ::1 /thinkphp3/Admin/Gen/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2019-12-01T17:45:30+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`name` FROM `teacher`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: row E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 25 行.
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 36 行.
+NOTIC: [8] Undefined variable: row E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 45 行.
+NOTIC: [8] Undefined variable: row E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 46 行.
+NOTIC: [8] Undefined variable: row E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2019-12-01T17:45:36+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `class` (`name`,`teacher_id`,`state`,`id`,`create_time`) VALUES ('任茂华','25','1','0','1575193536') [ RunTime:0.0323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+
+[ 2019-12-01T17:45:37+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0051s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2019-12-01T17:45:41+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save/id/19.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `class` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`name` FROM `teacher`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2019-12-01T17:45:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `class` SET `name`='任茂华',`teacher_id`='0',`state`='0' WHERE `id` = 19 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+
+[ 2019-12-01T17:45:46+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0053s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2019-12-01T17:45:51+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `class` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name` FROM `teacher`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2019-12-01T17:46:01+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `class` SET `name`='ffgg',`teacher_id`='24',`state`='0' WHERE `id` = 18 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+
+[ 2019-12-01T17:46:02+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0057s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\d226dc04610e76ef6af5711bccd551e3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2019-12-01T17:46:09+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `class` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name` FROM `teacher`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\e2daae6482210853d1fbe8736368642a.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-12-01T17:46:13+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `class` SET `name`='kbjbj',`teacher_id`='0',`state`='0' WHERE `id` = 18 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+
+[ 2019-12-01T17:46:15+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0057s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2019-12-01T17:46:16+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 5,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0051s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 5,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2019-12-01T17:46:17+08:00 ] ::1 /thinkphp3/index.php/Admin/Class/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `class` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `class` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0091s ]
+SQL: SELECT a.id,a.name as c_name,b.name as t_name,a.state,a.create_time FROM class a INNER JOIN teacher b on a.teacher_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2019-12-01T17:48:28+08:00 ] ::1 /thinkphp3/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'a.status' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.username,a.role_id,b.name as role_name,a.status,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5  
+ERR: 1054:Unknown column 'a.status' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.username,a.role_id,b.name as role_name,a.status,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5  
+
+[ 2019-12-01T17:48:30+08:00 ] ::1 /thinkphp3/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'a.status' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.username,a.role_id,b.name as role_name,a.status,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5  
+ERR: 1054:Unknown column 'a.status' in 'field list'
+ [ SQL语句 ] : SELECT a.id,a.username,a.role_id,b.name as role_name,a.status,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5  
+
+[ 2019-12-01T17:48:44+08:00 ] ::1 /thinkphp3/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`name` FROM `nav`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`path`,`nav_id` FROM `menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`name` FROM `nav`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`name`,`path`,`nav_id` FROM `menu`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `nav` [ RunTime:0.0086s ]
+SQL: SELECT `id`,`name` FROM `nav`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`name`,`path`,`nav_id` FROM `menu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2019-12-01T17:48:45+08:00 ] ::1 /thinkphp3/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2019-12-01T17:48:46+08:00 ] ::1 /thinkphp3/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SELECT a.id,a.username,a.role_id,b.name as role_name,a.state,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 40 行.
+NOTIC: [8] Use of undefined constant login_time - assumed 'login_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2019-12-01T17:48:49+08:00 ] ::1 /thinkphp3/index.php/Admin/User/del/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: DELETE FROM `user` WHERE `id` = 7 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+
+[ 2019-12-01T17:48:50+08:00 ] ::1 /thinkphp3/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SELECT a.id,a.username,a.role_id,b.name as role_name,a.state,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2019-12-01T17:48:51+08:00 ] ::1 /thinkphp3/index.php/Admin/User/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`name` FROM `role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: row E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 25 行.
+NOTIC: [8] Undefined variable: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 33 行.
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 44 行.
+NOTIC: [8] Undefined variable: state E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 55 行.
+NOTIC: [8] Undefined variable: state E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 57 行.
+NOTIC: [8] Undefined variable: login_time E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 65 行.
+NOTIC: [8] Undefined variable: id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2019-12-01T17:48:59+08:00 ] ::1 /thinkphp3/index.php/Admin/User/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`password`,`role_id`,`state`,`id`,`create_time`) VALUES ('ren','1111','9','1','0','1575193739') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+
+[ 2019-12-01T17:49:00+08:00 ] ::1 /thinkphp3/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+SQL: SELECT a.id,a.username,a.role_id,b.name as role_name,a.state,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 40 行.
+NOTIC: [8] Use of undefined constant login_time - assumed 'login_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2019-12-01T17:49:04+08:00 ] ::1 /thinkphp3/index.php/Admin/User/save/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `user` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`name` FROM `role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 33 行.
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 44 行.
+NOTIC: [8] Undefined variable: state E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 55 行.
+NOTIC: [8] Undefined variable: state E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 57 行.
+NOTIC: [8] Undefined variable: login_time E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 65 行.
+NOTIC: [8] Undefined variable: id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-12-01T17:49:07+08:00 ] ::1 /thinkphp3/index.php/Admin/User/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+
+[ 2019-12-01T17:49:10+08:00 ] ::1 /thinkphp3/index.php/Admin/User/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name` FROM `role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: row E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 25 行.
+NOTIC: [8] Undefined variable: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 33 行.
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 44 行.
+NOTIC: [8] Undefined variable: state E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 55 行.
+NOTIC: [8] Undefined variable: state E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 57 行.
+NOTIC: [8] Undefined variable: login_time E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 65 行.
+NOTIC: [8] Undefined variable: id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2019-12-01T17:49:17+08:00 ] ::1 /thinkphp3/index.php/Admin/User/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`password`,`role_id`,`state`,`id`,`create_time`) VALUES ('ren','1111','9','1','0','1575193757') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+
+[ 2019-12-01T17:49:18+08:00 ] ::1 /thinkphp3/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT a.id,a.username,a.role_id,b.name as role_name,a.state,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 40 行.
+NOTIC: [8] Use of undefined constant login_time - assumed 'login_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 40 行.
+NOTIC: [8] Use of undefined constant login_time - assumed 'login_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2019-12-01T17:49:21+08:00 ] ::1 /thinkphp3/index.php/Admin/User/save/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `user` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `role`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 33 行.
+NOTIC: [8] Undefined variable: teacher_id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 44 行.
+NOTIC: [8] Undefined variable: state E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 55 行.
+NOTIC: [8] Undefined variable: state E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 57 行.
+NOTIC: [8] Undefined variable: login_time E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 65 行.
+NOTIC: [8] Undefined variable: id E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\66d5cf6370314532c943fca54438aa7b.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2019-12-01T17:49:28+08:00 ] ::1 /thinkphp3/index.php/Admin/User/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `user` (`username`,`password`,`role_id`,`state`,`id`,`create_time`) VALUES ('ren','1111','9','1','0','1575193768') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+
+[ 2019-12-01T17:49:29+08:00 ] ::1 /thinkphp3/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT a.id,a.username,a.role_id,b.name as role_name,a.state,a.create_time FROM user a INNER JOIN role b on a.role_id=b.id  ORDER BY a.id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 40 行.
+NOTIC: [8] Use of undefined constant login_time - assumed 'login_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 40 行.
+NOTIC: [8] Use of undefined constant login_time - assumed 'login_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 43 行.
+NOTIC: [8] Undefined index: password E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 40 行.
+NOTIC: [8] Use of undefined constant login_time - assumed 'login_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Array to string conversion E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 42 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+

@@ -1,0 +1,194 @@
+[ 2019-11-26T08:46:31+08:00 ] ::1 /thinkphp3/Public/Admin/Images/333.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-26T08:46:34+08:00 ] ::1 /thinkphp3/Public/Admin/Images/333.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-26T08:46:34+08:00 ] ::1 /thinkphp3/Public/Admin/Images/333.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-26T08:46:35+08:00 ] ::1 /thinkphp3/Public/Admin/Images/333.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-26T08:46:35+08:00 ] ::1 /thinkphp3/Public/Admin/Images/333.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-26T08:47:05+08:00 ] ::1 /thinkphp3/Public/Admin/Images/333.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-26T08:47:06+08:00 ] ::1 /thinkphp3/Public/Admin/Images/333.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-26T08:47:06+08:00 ] ::1 /thinkphp3/Public/Admin/Images/333.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-26T11:47:27+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_IMG__/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021626s ]
+ERR: 无法加载模块:Application[ 2019-11-26T11:47:27+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_IMG__/menu_minus.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022267s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:47:27+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/global.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019721s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:47:27+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/transport.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:54:55+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_CSS__/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:54:55+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/global.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Application
+
+
+
+[ 2019-11-26T11:54:55+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_IMG__/menu_minus.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:54:55+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_IMG__/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:54:55+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:54:55+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/transport.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:59:13+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_CSS__/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:59:13+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:59:13+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_IMG__/menu_minus.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:59:13+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/transport.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:59:13+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/global.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:59:13+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_IMG__/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:59:13+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T11:59:13+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/transport.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T15:13:30+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004618s ]
+ERR: 无法加载模块:Application
+
+ion
+
+[ 2019-11-26T15:13:30+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_IMG__/menu_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T15:13:30+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T15:13:30+08:00 ] ::1 /thinkphp3/Application/Admin/View/Index/__ADMIN_JS__/transport.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Application
+
+[ 2019-11-26T15:42:09+08:00 ] ::1 /thinkphp3/Public/Admin/Styles/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载模块:Public
+
+[ 2019-11-26T15:42:09+08:00 ] ::1 /thinkphp3/Public/Admin/Styles/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+ERR: 无法加载模块:Public
+

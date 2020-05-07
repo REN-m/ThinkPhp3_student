@@ -1,0 +1,12 @@
+[ 2020-01-20T20:51:38+08:00 ] ::1 /thinkphp3/Public/Admin/Styles/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Public
+
+[ 2020-01-20T20:51:38+08:00 ] ::1 /thinkphp3/Public/Admin/Styles/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Public
+

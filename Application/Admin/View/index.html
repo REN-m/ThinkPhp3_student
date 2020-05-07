@@ -1,0 +1,21 @@
+<extend name="Public:baseIndex"/>
+<block name="content">
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>操作</th>
+    </tr>
+    <volist name="rows" id="row">
+        <tr>
+            <td align="center">{$row.id}</td>
+            <td align="center">{$row.name}</td>
+            <td align="center">{$row.department}</td>
+            <td>
+                <a href="{:U('/edit',array('id'=>$row['id']))}">编辑</a>
+                |
+                <a class="ajax-get" href="{:U('/del',array('id'=>$row['id']))}">删除</a>
+            </td>
+        </tr>
+    </volist>
+</block>

@@ -1,0 +1,86 @@
+[ 2020-03-08T15:38:20+08:00 ] ::1 /thinkphp3/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009345s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.004953s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002444s ]
+
+[ 2020-03-08T15:38:21+08:00 ] ::1 /thinkphp3/index.php/Admin/verify/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002066s ]
+
+[ 2020-03-08T15:38:28+08:00 ] ::1 /thinkphp3/index.php/Admin/Login/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.001606s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0193s ]
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: validate E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`password` FROM `user` WHERE `username` = 'ren' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-03-08T15:38:28+08:00 ] ::1 /thinkphp3/index.php/Admin/Login/validate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+INFO: [ action_begin ] --START--
+INFO: Run Admin\Behavior\TestBehavior [ RunTime:0.002665s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002723s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+NOTIC: [8] Undefined index: Type E:\phpstudy\PHPTutorial\WWW\thinkphp3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 65 行.
+
+[ 2020-03-08T15:38:35+08:00 ] ::1 /thinkphp3/index.php/Admin/verify/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002532s ]
+

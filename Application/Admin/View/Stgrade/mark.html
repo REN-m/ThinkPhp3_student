@@ -1,0 +1,27 @@
+<extend name="Public:baseIndex" />
+<block name="content">
+
+    <tr>
+        <th>编号</th>
+        <th>分类编号</th>
+        <th>题目编号</th>
+        <th>班级编号</th>
+        <th>班主任编号</th>
+        <th>总分</th>
+        <th>调查人数</th>
+        <th>添加时间</th>
+    </tr>
+    <volist name="rows" id="row" key="i">
+        <tr>
+            <td align="center">{$i}</td>
+            <td align="center">{$row.dname}</td>
+            <td align="center">{$row.etopic}</td>
+            <td align="center">{$row.bname}</td>
+            <td align="center">{$row.cname}</td>
+            <td align="center">{$row.point}</td>
+            <td align="center">{$row.number}</td>
+            <td align="center">{:date('Y-m-d H:i:s',$row[create_time])}</td>
+        </tr>
+    </volist>
+    <a href="{:U('stgrade/idea',array('class_id'=>$row['class_id'],'headmaster_id'=>$row['headmaster_id']))}"><h1>学生意见</h1></a>
+</block>

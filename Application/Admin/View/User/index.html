@@ -1,0 +1,31 @@
+<extend name="Public:baseIndex"/>
+<block name="content">
+    <tr>
+        <th>编号</th>
+        <th>用户名</th>
+        <th>角色</th>
+        <th>登录时间</th>
+        <th>添加时间</th>
+        <th>状态</th>
+        <th>操作</th>
+    </tr>
+    <volist name="rows" id="row">
+        <tr>
+            <td align="center">{$row.id}</td>
+            <td align="center">{$row.username}</td>
+            <!--<td align="center">{$row.password}</td>-->
+            <td align="center">{$row.role_id}</td>
+            <td align="center">{:date('Y-m-d H:i:s',$row.[login_time])}</td>
+            <td align="center">{:date('Y-m-d H:i:s',$row[create_time])}</td>
+            <td align="center"><a class="ajax-get" href="{:U('State',array('id'=>$row['id'],'states'=>$row['state']))}">
+                <img src="__ADMIN_IMG__/{$row.state}.gif"/>
+            </a></td>
+
+            <td>
+                <a href="{:U('User/save',array('id'=>$row['id']))}">编辑</a>
+                |
+                <a class="ajax-get" href="{:U('User/del',array('id'=>$row['id']))}">删除</a>
+            </td>
+        </tr>
+    </volist>
+</block>

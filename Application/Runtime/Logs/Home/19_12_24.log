@@ -1,0 +1,1212 @@
+[ 2019-12-24T08:56:31+08:00 ] ::1 /thinkphp3/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0384s ]
+SQL: SELECT `id`,`name` FROM `inves`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name` FROM `class` GROUP BY name  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2019-12-24T08:56:36+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0081s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=3 )  [ RunTime:0.0002s ]
+
+[ 2019-12-24T08:56:37+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=3&teacher_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0993s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2019-12-24T08:56:44+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.1586s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`) VALUES ('3','1','份挖方法') [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+120,avg = fraction/number 
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2019-12-24T08:56:44+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+
+[ 2019-12-24T09:18:37+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0052s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`) VALUES ('3','1','份挖方法') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+120,avg = fraction/number 
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2019-12-24T09:18:37+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2019-12-24T09:20:20+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0074s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=1 )  [ RunTime:0.0002s ]
+
+[ 2019-12-24T09:20:21+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=1&teacher_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0087s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0066s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2019-12-24T09:20:32+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0068s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`) VALUES ('1','2','热污染条往日v') [ RunTime:0.0003s ]
+ERR: 1146:Table 'student.ssummary' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ssummary`
+ERR: 1146:Table 'student.ssummary' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ssummary`
+
+[ 2019-12-24T09:20:48+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0063s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`) VALUES ('1','2','热污染条往日v') [ RunTime:0.0003s ]
+ERR: 1146:Table 'student.ssummary' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ssummary`
+ERR: 1146:Table 'student.ssummary' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ssummary`
+
+[ 2019-12-24T09:21:05+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0073s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`) VALUES ('1','2','热污染条往日v') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0062s ]
+SQL: INSERT INTO `summary` (`create_time`) VALUES ('1577150465') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2019-12-24T09:21:05+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2019-12-24T09:22:30+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0100s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`) VALUES ('1','2','热污染条往日v') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0050s ]
+SQL: INSERT INTO `summary` (`create_time`) VALUES ('1577150550') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000862s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2019-12-24T09:22:30+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2019-12-24T09:24:05+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0097s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`) VALUES ('1','2','热污染条往日v') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2019-12-24T09:24:05+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2019-12-24T09:24:44+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0111s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('1','2','热污染条往日v','1577150684') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2019-12-24T09:24:44+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2019-12-24T09:26:08+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+
+[ 2019-12-24T09:26:36+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0083s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('1','2','热污染条往日v','1577150796') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2019-12-24T09:26:36+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2019-12-24T09:26:51+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+
+[ 2019-12-24T09:27:20+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0103s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('1','2','热污染条往日v','1577150840') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2019-12-24T09:27:20+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2019-12-24T09:27:42+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0052s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('1','2','热污染条往日v','1577150862') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2019-12-24T09:27:42+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2019-12-24T09:28:10+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0080s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('1','2','热污染条往日v','1577150890') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2019-12-24T09:28:10+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2019-12-24T09:28:20+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0082s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('1','2','热污染条往日v','1577150900') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 1 and teacher_id=2 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2019-12-24T09:28:20+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2019-12-24T09:28:51+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0062s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=3 )  [ RunTime:0.0005s ]
+
+[ 2019-12-24T09:28:52+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=3&teacher_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2019-12-24T09:28:55+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0096s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','','1577150935') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+40,avg = fraction/number 
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2019-12-24T09:28:55+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2019-12-24T09:29:55+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0075s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','额发色','1577150995') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`create_time`,`fraction`) VALUES ('3','1','1577150995','130') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2019-12-24T09:29:55+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2019-12-24T10:43:06+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0059s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=4 )  [ RunTime:0.0002s ]
+
+[ 2019-12-24T10:43:08+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=4&teacher_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0209s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2019-12-24T10:43:13+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/4/teacher_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0063s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('4','3','份儿饭','1577155393') [ RunTime:0.1191s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`create_time`,`fraction`) VALUES ('4','3','1577155393','80') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2019-12-24T10:43:13+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/4/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2019-12-24T10:43:57+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=4&teacher_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2019-12-24T10:43:58+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=4&teacher_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2019-12-24T10:43:59+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=4&teacher_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2019-12-24T10:44:03+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/4/teacher_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0074s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('4','3','','1577155442') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=4 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: update summary set number = number+1,fraction = fraction+40,avg = fraction/number 
+                where class_id = 4 and teacher_id=3 [ RunTime:0.1156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2019-12-24T10:44:03+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/4/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2019-12-24T10:47:52+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `headmaster` [ RunTime:0.1339s ]
+SQL: SELECT a.id,a.name FROM headmaster a INNER JOIN class as b on a.id=b.headmaster_id  WHERE ( b.id=1 )  [ RunTime:0.0003s ]
+
+[ 2019-12-24T10:47:53+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=2&class=1&teacher_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0076s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dept_topic` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`name` FROM `dept_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: topic E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Home\1093f07c77d6e1e3d6a1d26a6fc8fc7f.php 第 33 行.
+NOTIC: [8] Undefined index: topic E:\phpstudy\PHPTutorial\WWW\thinkphp3\Application\Runtime\Cache\Home\1093f07c77d6e1e3d6a1d26a6fc8fc7f.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2019-12-24T10:48:02+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0082s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=1 )  [ RunTime:0.0002s ]
+
+[ 2019-12-24T10:48:03+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=1&teacher_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2019-12-24T10:48:08+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0089s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('1','2','','1577155688') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`create_time`,`fraction`) VALUES ('1','2','1577155688','90') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2019-12-24T10:48:08+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/1/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2019-12-24T16:11:29+08:00 ] ::1 /thinkphp3/index.php/home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `inves` [ RunTime:0.0081s ]
+SQL: SELECT `id`,`name` FROM `inves`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`name` FROM `class` GROUP BY name  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2019-12-24T16:11:34+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0076s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=3 )  [ RunTime:0.0002s ]
+
+[ 2019-12-24T16:11:35+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=3&teacher_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0055s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2019-12-24T16:11:42+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.1317s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','范德萨v发','1577175102') [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+130,avg = fraction/number 
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2019-12-24T16:11:42+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2019-12-24T16:12:18+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0082s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('3','1','范德萨v发','1577175138') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+180,avg = fraction/number 
+                where class_id = 3 and teacher_id=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2019-12-24T16:12:18+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/3/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2019-12-24T16:12:35+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0078s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=2 )  [ RunTime:0.0002s ]
+
+[ 2019-12-24T16:12:36+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=2&teacher_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0068s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2019-12-24T16:12:41+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/2/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0088s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('2','1','人纷纷','1577175161') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `summary` (`class_id`,`teacher_id`,`create_time`,`fraction`) VALUES ('2','1','1577175161','90') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2019-12-24T16:12:41+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/2/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2019-12-24T16:13:36+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0076s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=2 )  [ RunTime:0.0002s ]
+
+[ 2019-12-24T16:13:37+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=2&teacher_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2019-12-24T16:13:43+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/2/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0083s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('2','1','九零年间','1577175223') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+70,avg = fraction/number 
+                where class_id = 2 and teacher_id=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2019-12-24T16:13:43+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/2/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2019-12-24T16:17:05+08:00 ] ::1 /thinkphp3/index.php/Home/Index/teacher.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0077s ]
+SQL: SELECT a.id,a.name FROM teacher a INNER JOIN class as b on a.id=b.teacher_id  WHERE ( b.id=2 )  [ RunTime:0.0002s ]
+
+[ 2019-12-24T16:17:06+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/index.html?inves=1&class=2&teacher_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0073s ]
+SQL: SELECT `id`,`name` FROM `class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher` [ RunTime:0.0061s ]
+SQL: SELECT `id`,`name` FROM `teacher` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `teacher_topic` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`topic` FROM `teacher_topic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2019-12-24T16:17:12+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/2/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0083s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('2','1','阿文的方式乳房','1577175432') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+90,avg = fraction/number 
+                where class_id = 2 and teacher_id=1 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2019-12-24T16:17:12+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/2/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2019-12-24T16:20:47+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/2/teacher_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `summary_idea` [ RunTime:0.0061s ]
+SQL: INSERT INTO `summary_idea` (`class_id`,`teacher_id`,`idea`,`create_time`) VALUES ('2','1','阿文的方式乳房','1577175647') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `summary` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `summary` WHERE ( class_id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: update summary set number = number+1,fraction = fraction+90,avg = fraction/number 
+                where class_id = 2 and teacher_id=1 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2019-12-24T16:20:47+08:00 ] ::1 /thinkphp3/index.php/Home/Topic/summary/class_id/2/teacher_id/img/bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+

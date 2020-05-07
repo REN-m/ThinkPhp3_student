@@ -1,0 +1,39 @@
+<extend name="Public:baseSave"/>
+<block name="content">
+    <form method="post" action="{:U('SummaryIdea/save')}" enctype="multipart/form-data">
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">班级名称</td>
+                <td>
+                    <input type="text" name="class_id" maxlength="60" value="{$class_id}"/>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">任课教师</td>
+                <td>
+                    <input type="text" name="teacher_id" maxlength="60" value="{$teacher_id}"/>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">意见</td>
+                <td>
+                    <input type="text" name="idea" maxlength="60" value="{$idea}"/>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2" align="center"><br/>
+                    <input type="hidden" name="id" value="{$id}">
+                    <input type="submit" class="button" value=" 确定 "/>
+                    <input type="reset" class="button" value=" 重置 "/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>

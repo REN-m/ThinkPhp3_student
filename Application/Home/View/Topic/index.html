@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="__HOME_CSS__/check.css" />
+    <link rel="stylesheet" href="__HOME_CSS__/min.ui.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="bg"></div>
+        <h3>{$mz.name}</h3>
+        <p class="title2">班级:{$class.name}-老师:{$teacher.name}</p>
+        <h6>您好:</h6>
+        <p class="descrip">
+          欢迎参加学生满意度调查工作!
+          此次调查是本校为了学生拥有更好的在校生活而专门设计的
+          希望你抽出一点时间积极配合我们的调查工作,谢谢你的参与
+        </p>
+        <h6>说明:</h6>
+        <p class="descrip">
+          本次调查采用匿名形式,我们将严格保密你的信息
+        </p>
+      </header>
+      <div class="content">
+        <form action="{:U('Topic/summary',array('class_id'=>$class['id'],'teacher_id'=>$teacher['id'],'inves'=>$inves['id'],''))}" method="post">
+          <div class="classify">
+            <volist name="vos" id="vo" key="i">
+              <if condition="$inves['id'] eq 2">
+                <h4 class="title">{$i}.{$key}</h4>
+                <else/>
+
+              </if>
+              <div class="question-box">
+                <if condition="$inves['id'] eq 1">
+                  <option class="question">{$i}.{$vo.topic}</option>
+                  <div class="mui-numbox" data-numbox-step="10" data-numbox-min="0" data-numbox-max="100">
+                    <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+                    <input class="mui-numbox-input" type="number" name="topic[{$vo['id']}]"/>
+                    <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+                  </div>
+                  <else />
+                  <volist name="vo" id="vi" key="o">
+
+                    <if condition="$inves['id'] eq 2">
+                      <p class="question">{$o}.{$vi['topic']}</p>
+                    </if>
+                    <div class="mui-numbox" data-numbox-step="10" data-numbox-min="0" data-numbox-max="100">
+                      <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+
+                      <input class="mui-numbox-input" type="number" name="topic[{$vi['t_id']}][{$o}]"/>
+                      <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+                    </div>
+                  </volist>
+                </if>
+              </div>
+              <if condition="$inves['id'] eq 2">
+                <div class="question-box">
+                  <p class="question">其他意见</p>
+
+                  <textarea style="resize:none" name="intro[{$vi['f_id']}]" cols="1" rows="4"></textarea>
+                </div>
+              </if>
+            </volist>
+            <if condition="$inves['id'] eq 1">
+              <div class="question-box">
+                <p class="question">其他意见</p>
+                <textarea style="resize:none" name="intro" cols="1" rows="4"></textarea>
+              </div>
+            </if>
+          </div>
+          <input type="submit" value="提交">
+        </form>
+      </div>
+    </div>
+    <script src="__HOME_JS__/min.ui.js"></script>
+  </body>
+</html>

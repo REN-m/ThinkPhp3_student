@@ -1,0 +1,36 @@
+[ 2020-03-08T15:38:12+08:00 ] ::1 /thinkphp3/Application/Admin/View/Login/__ADMIN_IMG__/login.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:Application
+
+[ 2020-03-08T15:38:12+08:00 ] ::1 /thinkphp3/Application/Admin/View/Login/__ADMIN_CSS__/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001621s ]
+ERR: 无法加载模块:Application
+
+[ 2020-03-08T15:38:12+08:00 ] ::1 /thinkphp3/Application/Admin/View/Login/__ADMIN_JS__/jquery-1.8.2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Application
+
+[ 2020-03-08T15:38:12+08:00 ] ::1 /thinkphp3/Application/Admin/View/Login/__ADMIN_CSS__/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+ERR: 无法加载模块:Application
+
+[ 2020-03-08T15:38:21+08:00 ] ::1 /thinkphp3/Public/Admin/Styles/Styles/general.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-08T15:38:21+08:00 ] ::1 /thinkphp3/Public/Admin/Styles/Styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:Public
+

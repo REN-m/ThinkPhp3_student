@@ -1,0 +1,65 @@
+<extend name="Public:baseSave"/>
+<block name="content">
+    <form method="post" action="{:U('User/save')}" enctype="multipart/form-data">
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">用户名</td>
+                <td>
+                    <input type="text" name="username" maxlength="60" value="{$row.username}"/>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">密码</td>
+                <td>
+                    <input type="text" name="password" placeholder="如果不写默认为不修改" maxlength="60" value="{$password}"/>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">角色id</td>
+                <td>
+                    <select name="role_id" id="">
+                        <option value="0">-选择-</option>
+                        <volist name="roles" id="role">
+                            <option value="{$role.id}">{$role.name}</option>
+                        </volist>
+                        <!--<input Type="text" name="teacher_id" maxlength="60" value="{$teacher_id}"/>-->
+                    </select>
+                    <span class="require-field">*</span>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="label">状态</td>
+                <td>
+                    <label>
+                        <input type="radio" {$state ? 'checked="checked"' : ''} style="height:15px;width: 20px" name="state" value="1"/> 是 </label>
+                    <label>
+                        <input type="radio" {$state ? '' : 'checked="checked"'} style="height:15px;width: 20px" name="state" value="0"/> 否 </label>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+
+            <!--<tr>-->
+                <!--<td class="label">登录时间</td>-->
+                <!--<td>-->
+                    <!--<input Type="text" name="login_time" maxlength="60" value="{$login_time}"/>-->
+                    <!--<span class="require-field">*</span>-->
+                <!--</td>-->
+            <!--</tr>-->
+
+
+            <tr>
+                <td colspan="2" align="center"><br/>
+                    <input type="hidden" name="id" value="{$row.id}">
+                    <input type="submit" class="button" value=" 确定 "/>
+                    <input type="reset" class="button" value=" 重置 "/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>

@@ -1,0 +1,56 @@
+<extend name="Public:baseSave"/>
+<block name="content">
+    <form method="post" action="{:U('Teacher/save')}" enctype="multipart/form-data">
+        <table cellspacing="1" cellpadding="3" width="100%">
+            <tr>
+                <td class="label">姓名</td>
+                <td>
+                    <input type="text" name="name" maxlength="60" value="{$row.name}"/>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">部门编号</td>
+                <td>
+                    <select name="dept_id" id="">
+                        <option value="0">-选择-</option>
+                        <volist name="depts" id="dept">
+                            <option value="{$dept.id}">{$dept.name}</option>
+                        </volist>
+                    </select>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">职位</td>
+                <td>
+                    <label>
+                        <input type="radio" {$position ? 'checked="checked"' : ''} style="height:15px;width: 20px"
+                        name="position" value="1"/>
+                        班主任 </label>
+                    <label>
+                        <input type="radio" {$position ? '' : 'checked="checked"'} style="height:15px;width: 20px"
+                        name="position" value="0"/>
+                        任课教师 </label>
+                    <span class="require-field">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="label">状态</td>
+                <td>
+                    <input type="radio" name="state" value="1" {$row['state'] ? 'checked="checked"' : ''} /> 是
+                    <input type="radio" name="state" value="0" {$row['state'] ? '' : 'checked="checked"'} /> 否
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2" align="center"><br/>
+                    <input type="hidden" name="id" value="{$row.id}">
+                    <input type="submit" class="button" value=" 确定 "/>
+                    <input type="reset" class="button" value=" 重置 "/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</block>
